@@ -1,0 +1,43 @@
+@import url(http://fonts.googleapis.com/css?family=Redressed);
+@import url(http://fonts.googleapis.com/css?family=Wellfleet);
+@import url(http://fonts.googleapis.com/css?family=Robodo);
+.yellow {
+    color: yellow;
+    font-weight: normal;
+}
+
+.cyan {
+    color: #00ffee;
+    font-size: 1.2em;
+    font-weight: normal;
+}
+
+a:visited {
+    color: #00ffee;
+}
+
+body {
+    background-image: url('http://www.ehd-wallpapers.com/plog-content/images/1280x800/nature/desert-road-hd-widescreen-.jpg');
+    background-size: 100%;
+    font-family: 'Redressed', cursive;
+    font-size: 1.5em;
+    letter-spacing: 1.5px;
+    text-align: center;
+    border: 2px solid white;
+}
+
+h1 {
+    font-family: 'Wellfleet', cursive;
+    color: #ffffff;
+    margin-top: 0.5em;
+}
+
+div {
+    padding: 14%;
+    color: #ffffff;
+}
+
+footer {
+    font-family: 'Robodo', cursive;
+    font-size: 0.8em;
+}

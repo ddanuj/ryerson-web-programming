@@ -1,0 +1,36 @@
+@import url(http://fonts.googleapis.com/css?family=Loved+by+the+King);
+@import url(http://fonts.googleapis.com/css?family=Roboto:700);
+@import url(http://fonts.googleapis.com/css?family=Rancho);
+body {
+    background-image: url('http://3.bp.blogspot.com/-LMM_a1pUyn8/UGUcr7e7cUI/AAAAAAAAHXY/f-66MUJj2JY/s1600/Nature-wallpaper-33.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Loved by the King', cursive;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #ff0000;
+    letter-spacing: 1.5px;
+    text-align: center;
+    border: 2px solid red;
+}
+
+table {
+    padding-left: 30%;
+    width: 35%;
+}
+
+td {
+    background-color: #aaaaaa;
+    opacity: 0.8;
+    text-align: center;
+    border: 2px solid yellow;
+    font-family: 'Rancho', cursive;
+    font-size: 1.2em;
+    word-wrap: break-word;
+}
+
+h1 {
+    color: #44bb33;
+    font-family: 'Roboto', sans-serif;
+}

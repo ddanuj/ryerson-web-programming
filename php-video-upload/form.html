@@ -1,0 +1,40 @@
+<!--This is the form to upload the files -->
+
+<!DOCTYPE html>
+
+<head>
+    <title>Assignment-2</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="style_form.css" />
+</head>
+
+<body>
+    <h1>Video Uploader</h1>
+    <div>
+        <form action="/ass2-php/up.php" method="POST" enctype="multipart/form-data">
+            <input type="hidden" name="POST_MAX" value="2048000" /> Choose Video File:
+            <input type="file" name="video" />
+            <input type="reset" />
+            <br /> Choose Image cover:
+            <input type="file" name="picture" />
+            <input type="reset" />
+            <br /> Choose text description:
+            <input type="file" name="text" />
+            <input type="reset" />
+            <br />
+            <input type="submit" value="Upload" />
+        </form>
+        <br />
+        <br />
+        <br />
+        <span class="yellow">To see valid file extensions, check out the
+            <br />
+            <span class="cyan">
+                <a href="http://ddanuj.x10.mx/ass2-php/userGuide.html">user guide</a>
+            </span>
+        </span>
+        <footer>Created by: Anuj Doiphode | Reg. no: 500605085</footer>
+    </div>
+</body>
+
+</html>
